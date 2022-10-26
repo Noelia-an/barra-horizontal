@@ -1,0 +1,36 @@
+
+body {
+    background-image: url("imagen.fondo.jpg");
+}
+    
+   ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+     ul { 
+      list-style-type: none;
+      background-color: rgb(245, 119, 182);
+      margin: 0px;
+      padding: 40px;
+      border: 1px solid rgb(134, 3, 73)
+    }
+    li{
+      float: left
+    }
+  li a { 
+  display:block;
+  color: rgb(219, 73, 73);
+  padding: 6px 70px;
+  text-align:center;
+  text-decoration: none;
+}
+
+li a:hover{ 
+  background-color: lightpink;
+  color: lavender;
+}
+.active{ 
+  background-color: cornflowerblue;
+  color: rgb(250, 245, 239);
+}
